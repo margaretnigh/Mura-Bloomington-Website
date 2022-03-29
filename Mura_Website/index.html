@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mura Sushi and Korean</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		.flex-container {
+			display: flex;
+			flex-wrap: nowrap;
+			background-color: DodgerBlue;
+		}
+
+		.flex-container > div {
+			background-color: #f1f1f1;
+			width: 100px;
+			margin: 10px;
+			text-align: center;
+			line-height: 75px;
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">MURA<span>.</span></a>
+		<div class="menuToggle" onclick="toggleMenu()"></div>
+		<ul class="navigation">
+			<li><a href="#home" onclick="toggleMenu()">Home</a></li>
+			<li><a href="#about" onclick="toggleMenu()">Order</a></li>
+			<li><a href="menu.html" onclick="toggleMenu()">Menu</a></li>
+			<li><a href="#expert" onclick="toggleMenu()">About</a></li>
+			<li><a href="#testimonials" onclick="toggleMenu()">Testimonials</a></li>
+			<li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+		</ul>
+	</header>
+	<section class="banner" id="banner">
+		<div class="content">
+			<h2>MURA Sushi and Korean</h2>
+			<p>
+				This is mura korean and japanese
+			</p>
+			<a href="menu.html" class="btn">Our Menu</a>
+			<a href="https://food.google.com/chooseprovider?restaurantId=/g/11rx0dk9bx&g2lbs=AGgkzMyfX_cwmJU_0Ffu5fvsgGxFFwtEG_PmpbcgdKmxDu76HtOsj-F7nFP_6HdzadR-ZaoHvReUaRCwE7-3_JLGFOY90A3QOA%3D%3D&hl=en-US&gl=us&cs=1&ssta=1&fo_m=MfohQo559jFvMWwP9igWZeWQMczq7voErUdXMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfaXTPp5KXh-OAE%3D&gei=NoNDYsv0K8-S0PEPwvu2gAw&fo_s=OA,AH&sei=CQrKE8slh3uSETe7Tx5swaMa&utm_campaign&utm_source=search" class="btn">Order Now</a>
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="row">
+			<div class="col50">
+				<h2 class="titleText">About Us</h2>
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, quas corporis in reprehenderit quaerat consequatur iure consectetur modi adipisci nostrum provident, nam totam ipsa expedita magni placeat rerum accusantium est mollitia minus.
+					<br><br>
+					Asperiores, eaque, natus iste delectus expedita eveniet omnis repudiandae dolorum. Deleniti quis numquam odit animi, vel reiciendis alias aliquid dolorem magnam sapiente cumque obcaecati, ut temporibus tenetur maxime possimus dicta, iusto beatae. Cupiditate fugiat dicta sunt ipsam in laborum accusamus ipsum. Totam, hic!
+				</p>
+			</div>
+
+			<div class="col50">
+				<div class="imgBx">
+					<img src="img/sushi1.jpg" alt="sushi image">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="menu" id="menu">
+		<div class="title">
+			<h2 class="titleText">Our Menu</h2>
+			<p>
+			    Lorem, ipsum dolor sit, amet consectetur adipisicing elit.
+		    </p>
+		</div>
+
+		<div class="content">
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/menu1.jpg" alt="">
+				</div>
+				<div class="text">
+					<h3>Special Salads</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/menu2.jpg" alt="">
+				</div>
+				<div class="text">
+					<h3>Special Soup</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/menu3.jpg" alt="">
+				</div>
+				<div class="text">
+					<h3>Special Pasta</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/menu4.jpg" alt="">
+				</div>
+				<div class="text">
+					<h3>Special Salads</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/menu5.jpg" alt="">
+				</div>
+				<div class="text">
+					<h3>Special Soup</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/menu6.jpg" alt="">
+				</div>
+				<div class="text">
+					<h3>Special Pasta</h3>
+				</div>
+			</div>
+		</div>
+		<div class="title">
+			<a href="#" class="btn">View All</a>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="title">
+			<h2 class="titleText"><span>C</span>ontact Us</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+		</div>
+		<div class="contactForm">
+			<h3>Send Message</h3>
+			<div class="inputBox">
+				<input type="text" placeholder="Name" required>
+			</div>
+			<div class="inputBox">
+				<input type="email" placeholder="Email" required>
+			</div>
+			<div class="inputBox">
+				<textarea placeholder="Message line..." required></textarea>
+			</div>			
+			<div class="inputBox">
+				<input type="submit" value="Send">
+			</div>
+		</div>
+	</section>
+
+	<div class="copyrightText">
+		<p>Copyright 2020 <a href="#">Atulcodex</a>. All Rights Reserved.</p>
+	</div>
+
+	<script type="text/javascript">
+		window.addEventListener('scroll', function(){
+			const header = document.querySelector('header');
+			header.classList.toggle("sticky", window.scrollY > 0);
+		});
+
+		function toggleMenu()
+		{
+			const menuToggle = document.querySelector('.menuToggle');
+			const navigation = document.querySelector('.navigation');
+			menuToggle.classList.toggle('active');
+			navigation.classList.toggle('active');
+		}
+	</script>
+</body>
+</html>
